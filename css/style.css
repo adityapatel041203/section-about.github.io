@@ -1,0 +1,535 @@
+/* ==============================fonts==================================================== */
+/* prime-text */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+/* heading-text */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+
+    /* =======fonts============ */
+    --prime-text: - 'Open Sans', sans-serif;
+    --heading-text: - 'Manrope', sans-serif;
+
+    /* =======colors============ */
+    --prime-color--: - #0A2640;
+    --title-color--: #000000;
+    --white-color--: #FFFFFF;
+    --body-text-color--: #777777;
+}
+
+section {
+    margin-top: 60px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+li a {
+    text-decoration: none;
+}
+
+/* ==============================header==================================================== */
+header .header-1 {
+    padding: 30px 10px;
+    background-color: #0A2640;
+    color: var(--white-color--);
+}
+
+header .header-1 .menu {
+    padding: 0;
+    margin: 0;
+    text-align: end;
+}
+
+header .header-1 .menu li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+header .header-1 .menu li a {
+    font-family: var(--prime-text);
+    color: var(--prime-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: end;
+}
+
+header .header-1 .menu .about {
+    font-family: var(--prime-text);
+    color: #4FE9A4;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: end;
+}
+
+header .header-1 .menu .btn {
+    font-family: var(--prime-text);
+    color: #0A2640;
+    background: var(--white-color--);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid var(--white-color--);
+    border-radius: 24px;
+    padding: 8px 40px;
+}
+
+header .header-1 {
+    padding: 30px 10px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: var(--white-color--);
+    transition: all 0.5s ease-in-out;
+    z-index: 99;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+header .header-2 {
+    padding: 30px 10px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: #0A2640 !important;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px 10px;
+    transition: all 0.5s ease-in-out;
+    z-index: 99;
+    color: var(--white-color--);
+}
+
+header .header-2 .menu {
+    padding: 0;
+    margin: 0;
+}
+
+header .header-2 .menu li {
+    list-style: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+header .header-2 .menu li a {
+    font-family: var(--prime-text);
+    color: var(--prime-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: end;
+}
+
+header .header-2 .menu .about {
+    font-family: var(--prime-text);
+    color: #4FE9A4;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: end;
+}
+
+header .header-2 .menu .btn {
+    font-family: var(--prime-text);
+    color: #0A2640;
+    background: var(--white-color--);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 40px;
+    border: 2px solid var(--white-color--);
+    border-radius: 24px;
+}
+
+.header-2 .menu-icon {
+    margin-left: auto;
+    font-size: 30px;
+    color: var(--white-color--);
+}
+
+.header-2 .slide-down {
+    margin-top: 20px;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ==============================banner==================================================== */
+.banner {
+    background: #0A2640;
+    padding: 70px 0 166px 0;
+}
+
+.banner .sub-title {
+    font-family: var(--prime-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.banner .title {
+    font-family: var(--heading-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    margin-bottom: 3px;
+}
+
+.banner .text {
+    font-family: var(--prime-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* ==============================section-1==================================================== */
+.section-1 {
+    margin-top: -6.5rem;
+}
+
+/* ==============================section-2==================================================== */
+.section-2 {
+    padding-top: 5.65rem !important;
+    padding-bottom: 5.65rem !important;
+}
+
+.section-2 .sub-title {
+    font-family: var(--prime-text);
+    color: var(--body-text-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.section-2 .title {
+    font-family: var(--heading-text);
+    color: var(--title-color--);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+
+.section-2 .text {
+    font-family: var(--prime-text);
+    color: var(--body-text-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* ==============================section-3==================================================== */
+.section-3 {
+    padding: 96px 0;
+    background: #0A2640;
+}
+
+.section-3 .sub-title {
+    font-family: var(--prime-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.section-3 .title {
+    font-family: var(--heading-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 80px;
+}
+
+.section-3 .numbers {
+    font-family: var(--heading-text);
+    color: #4FE9A4;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 56px;
+    margin-bottom: 32px;
+}
+
+.section-3 div {
+    font-family: var(--prime-text);
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* ==============================section-4==================================================== */
+
+.section-4 {
+    padding-top: 5.65rem !important;
+    padding-bottom: 5.65rem !important;
+}
+
+.section-4 .sub-title {
+    font-family: var(--prime-text);
+    color: var(--body-text-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.section-4 .title {
+    font-family: var(--heading-text);
+    color: var(--title-color--);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+
+.section-4 .text {
+    font-family: var(--prime-text);
+    color: var(--body-text-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 52px;
+}
+
+.team-box .name {
+    font-family: var(--heading-text);
+    color: var(--title-color--);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+
+.team-box .position {
+    font-family: var(--prime-text);
+    color: var(--body-text-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* ==============================section-5==================================================== */
+.section-5 {
+    padding-top: 5.65rem !important;
+    padding-bottom: 5.65rem !important;
+    background: #0A2640;
+}
+
+.section-5 .sub-title {
+    font-family: var(--prime-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.section-5 .title {
+    font-family: var(--heading-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+
+.section-5 .text {
+    font-family: var(--prime-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 72px;
+}
+
+.pannel-box .content .sub-heading {
+    font-family: var(--heading-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+.pannel-box .content .info {
+    font-family: var(--prime-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* ============================= section-6==================================================== */
+.section-6 {
+    background: #0A2640;
+    padding: 72px 0;
+}
+
+.section-6 .title {
+    font-family: var(--heading-text);
+    color: var(--white-color--);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 48px;
+}
+
+.section-6 .form-control {
+    display: block;
+    width: 50%;
+    padding: 1rem 1.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: var(--title-color--);
+    background-color: var(--white-color--);
+    background-clip: padding-box;
+    border: 2px solid var(--white-color--);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 5rem;
+    -webkit-box-shadow: "null";
+    box-shadow: "null";
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.section-6 .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: var(--white-color--);
+}
+
+.section-6 .btn {
+    font-family: var(--prime-text);
+    color: var(--prime-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+    border-radius: 56px;
+    padding: 16px 56px;
+    transition: all 0.5s ease-in-out;
+    background:
+        #65E4A3;
+}
+
+/* =============================footer==================================================== */
+footer {
+    background: var(--white-color--);
+    padding: 100px 0;
+}
+
+footer .text {
+    font-family: var(--prime-text);
+    color: var(--body-text-color--);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 40px 0 64px 0;
+}
+
+footer span {
+    font-family: var(--prime-text);
+    color: var(--body-text-color--);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer .sub-title {
+    font-family: var(--prime-text);
+    color: var(--title-color--);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: block;
+    font-family: var(--prime-text);
+    color: var(--body-text-color--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+footer ul li a {
+    color: var(--body-text-color--);
+}
+
+footer ul li a:hover {
+    color: var(--body-text-color--);
+}
+
+footer ul li:last-child {
+    margin: 0;
+}
+
+footer ul li .btn {
+    font-family: var(--prime-text);
+    color: #0A2640;
+    background: #65E4A3;
+    padding: 1px 14px;
+    border-radius: 120px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+/* ==========================responsive========================================== */
+@media(max-width:768px) {
+    .banner {
+        background: #0A2640;
+        padding: 140px 0 160px 0;
+    }
+
+    .banner .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .section-2 {
+        padding: 0;
+    }
+
+    section {
+        margin-top: 30px;
+    }
+
+    .section-3 .counter-box {
+        width: -webkit-fill-available;
+    }
+
+    .section-6 .form-control {
+        width: 100%;
+    }
+}
